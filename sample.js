@@ -1,1 +1,1 @@
-// sample
+console.log(process.argv)
