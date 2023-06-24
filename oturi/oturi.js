@@ -1,8 +1,8 @@
 'use strict';
 
 // 650円のお会計に対して、1000円支払うとお釣りは何枚か？
-// x 円のお会計に対して、N円支払うとお釣りは何枚か？
-// 0 < x, N <= 1000
+// x 円のお会計に対して、1000円支払うとお釣りは何枚か？
+// 0 < x <= 1000
 
 function count_oturi(siharai, payment) {
   let diff = payment - siharai;

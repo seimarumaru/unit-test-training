@@ -16,3 +16,8 @@ it("siharai=973, payment=1000のとき、お釣りは5枚である", async () =>
   assert.strictEqual(count_oturi(siharai, payment), 5);
 });
 
+it("siharai=1, payment=1000のときお釣りは15枚である", async () => {
+  const siharai = 1;
+  const payment = 1000;
+  assert.strictEqual(count_oturi(siharai, payment), 15);
+});
